@@ -1,128 +1,120 @@
-# index.html
-
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>TaxBot</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaxBot</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <div class="bg"></div>
+    <header class="hero">
+        <nav>
+            <h1>TaxBot</h1>
 
-  <header>
-    <div class="logo">TAX</div>
+            <div class="buttons">
+                <a href="#" class="btn">Invite</a>
+                <a href="#" class="btn btn2">Support</a>
+            </div>
+        </nav>
 
-    <nav>
-      <a href="#features">Features</a>
-      <a href="#pricing">Pricing</a>
-      <a href="#commands">Commands</a>
-    </nav>
+        <div class="hero-content">
+            <h2>The Ultimate Discord Utility Bot</h2>
 
-    <a class="invite-btn" href="https://discord.com/oauth2/authorize?client_id=YOUR_CLIENT_ID&permissions=8&scope=bot">
-      Add Bot
-    </a>
-  </header>
+            <p>
+                Moderation, emoji tools, logging, and premium utilities
+                built for modern Discord servers.
+            </p>
 
-  <section class="hero">
-    <div class="hero-content">
-      <span class="tag">NEXT GEN DISCORD BOT</span>
+            <a href="#" class="main-btn">Add To Discord</a>
+        </div>
+    </header>
 
-      <h1>
-        Powerful <span>Moderation</span><br>
-        Made Simple.
-      </h1>
+    <section class="features">
 
-      <p>
-        TaxBot brings modern moderation, utility,
-        emoji tools, logging, and automation to your Discord server.
-      </p>
+        <div class="card">
+            <h3>Moderation</h3>
+            <p>
+                Fast bans, kicks, mute systems, logging,
+                and automod.
+            </p>
+        </div>
 
-      <div class="hero-buttons">
-        <a class="primary" href="#pricing">Get Started</a>
-        <a class="secondary" href="https://discord.gg/yourserver">Discord</a>
-      </div>
-    </div>
-  </section>
+        <div class="card">
+            <h3>Emoji Tools</h3>
+            <p>
+                Steal emojis, manage stickers,
+                and organize assets instantly.
+            </p>
+        </div>
 
-  <section id="features" class="features">
+        <div class="card">
+            <h3>Utilities</h3>
+            <p>
+                Clean commands, server tools,
+                and premium quality uptime.
+            </p>
+        </div>
 
-    <div class="card">
-      <h3>Moderation</h3>
-      <p>Fast bans, kicks, mute systems, logging, and automod.</p>
-    </div>
+    </section>
 
-    <div class="card">
-      <h3>Emoji Tools</h3>
-      <p>Steal emojis, manage stickers, and organize assets instantly.</p>
-    </div>
+    <section class="commands">
 
-    <div class="card">
-      <h3>Utilities</h3>
-      <p>Clean commands, server tools, and premium quality uptime.</p>
-    </div>
+        <h2>Popular Commands</h2>
 
-  </section>
+        <div class="command-grid">
 
-  <section id="commands" class="commands">
-    <h2>Popular Commands</h2>
+            <div class="command">
+                <h3>>ping</h3>
+                <p>Check bot latency.</p>
+            </div>
 
-    <div class="command-grid">
+            <div class="command">
+                <h3>>steal</h3>
+                <p>Steal emojis instantly.</p>
+            </div>
 
-      <div class="command-card">
-        <span>>ping</span>
-        <p>Check bot latency.</p>
-      </div>
+            <div class="command">
+                <h3>>delete</h3>
+                <p>Delete server emojis.</p>
+            </div>
 
-      <div class="command-card">
-        <span>>steal</span>
-        <p>Steal emojis instantly.</p>
-      </div>
+            <div class="command">
+                <h3>>ban</h3>
+                <p>Ban members quickly.</p>
+            </div>
 
-      <div class="command-card">
-        <span>>delete</span>
-        <p>Delete server emojis.</p>
-      </div>
+        </div>
 
-      <div class="command-card">
-        <span>>ban</span>
-        <p>Ban members quickly.</p>
-      </div>
+    </section>
 
-    </div>
-  </section>
+    <section class="pricing">
 
-  <section id="pricing" class="pricing">
+        <h2>Pricing</h2>
 
-    <h2>Pricing</h2>
+        <div class="price-card">
+            <h3>Premium</h3>
 
-    <div class="pricing-card">
-      <h3>Premium</h3>
-      <div class="price">$5<span>/month</span></div>
+            <h1>$5/month</h1>
 
-      <ul>
-        <li>24/7 uptime</li>
-        <li>Premium commands</li>
-        <li>Advanced moderation</li>
-        <li>Priority support</li>
-      </ul>
+            <ul>
+                <li>24/7 uptime</li>
+                <li>Premium commands</li>
+                <li>Advanced moderation</li>
+                <li>Priority support</li>
+            </ul>
 
-      <a href="#" class="primary pricing-btn">Buy Premium</a>
-    </div>
+            <a href="#" class="main-btn">Buy Premium</a>
+        </div>
 
-  </section>
+    </section>
 
-  <footer>
-    <p>© 2026 TaxBot. All rights reserved.</p>
-  </footer>
+    <footer>
+        <p>© 2026 TaxBot. All rights reserved.</p>
+    </footer>
 
-  <script src="script.js"></script>
+    <script src="script.js"></script>
+
 </body>
 </html>
-```
