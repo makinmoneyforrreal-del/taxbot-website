@@ -1,5 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background: black;
+    background: #000;
     color: white;
-    font-family: Arial;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 60px;
+    border-bottom: 1px solid #222;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #888;
+}
+
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+}
+
+.hero h1 {
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    color: #999;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background: white;
+    color: black;
+    padding: 14px 32px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #ccc;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    padding: 80px;
+}
+
+.card {
+    background: #111;
+    border: 1px solid #222;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.card h2 {
+    margin-bottom: 15px;
+}
+
+.card p {
+    color: #999;
+}
+
+.pricing {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.price-box {
+    background: #111;
+    border: 1px solid #222;
+    border-radius: 20px;
+    padding: 40px;
+    max-width: 400px;
+    margin: auto;
+}
+
+.price {
+    font-size: 50px;
+    margin: 20px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+    color: #666;
 }
