@@ -181,3 +181,46 @@ footer{
     text-align:center;
     color:#777;
 }
+css
+.commands-page{
+    padding:120px 10%;
+}
+
+.commands-page h1{
+    font-size:70px;
+    text-align:center;
+    margin-bottom:80px;
+}
+
+.command-category{
+    margin-bottom:70px;
+}
+
+.command-category h2{
+    font-size:40px;
+    margin-bottom:30px;
+}
+
+.command-list{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+
+.cmd{
+    background:#0d0d0d;
+    border:1px solid #1d1d1d;
+    border-radius:20px;
+    padding:30px;
+}
+
+.cmd h3{
+    font-size:28px;
+    margin-bottom:12px;
+}
+
+.cmd p{
+    color:#a5a5a5;
+    line-height:1.7;
+}
+
